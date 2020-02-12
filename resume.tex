@@ -1,0 +1,241 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+\renewcommand{\baselinestretch}{1.1}
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-emerald}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\makeatletter
+\patchcmd{\@sectioncolor}{\color}{\mdseries\color}{}{}
+\makeatother
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{profile}
+\name{Pouya}{Aghahoseini}
+\position{Computer Science Student{\enskip\cdotp\enskip}Amirkabir University of Technology}
+\address{No.16, Tavakol Alley, 17-Shahrivar Ave, Tehran, 1153963716, Iran}
+
+\mobile{(+98) 9102117201}
+\email{pouyaaghahoseini@gmail.com}
+\homepage{pouyaaghahoseini.github.io}
+\github{pouyaaghahoseini}
+\linkedin{pouyaaghahoseini}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Pouya Aghahoseini~~~·~~~Résumé}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+%	SUMMARY
+%-------------------------------------------------------------------------------
+\cvsection{Summary}
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvparagraph}
+	
+	%---------------------------------------------------------
+	Currently working in the field of Robotics and Machine Learning my interest lies in applications of A.I. in Automated Systems. Good experience and skills in robotics development environment like ROS and have good-hands on experience with variety of sensors. Adept to code in Python, Java and C++ with credible python skills in deep learning modules and frameworks like Keras and Pytorch. Super Nerd who loves to customize his computer environment in his own way. Passionate for photography and reading and also love to sketch once in a while.
+\end{cvparagraph}
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Skills}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvskills}
+	%---------------------------------------------------------
+	\cvskill
+	{Programming} % Category
+	{C/C++, Python, R, MATLAB} % Skills
+	
+	%---------------------------------------------------------
+	\cvskill
+	{Web Technologies} % Category
+	{HTML, CSS, Javascript, MySQL} % Skills
+	%---------------------------------------------------------
+	\cvskill
+	{Libraries} % Category
+	{numPy, Pandas} % Skills
+	%---------------------------------------------------------
+	\cvskill
+	{Operating Systems} % Category
+	{Linux, Windows}
+	
+	\cvskill
+	{Miscellaneous}
+	{Jupyter, Microsoft Office, GAMS, Database Design}% Skills
+	
+	%---------------------------------------------------------
+\end{cvskills}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION
+%-------------------------------------------------------------------------------
+\cvsection{Education}
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+	
+	%---------------------------------------------------------
+	\cventry
+	{Bachelor of Science} % Degree
+	{Amirkabir University of Technology} % Institution
+	{Tehran, Iran} % Location
+	{ 2016 - Present} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item {\textit{\textbf{Major in Computer Science}}, \textbf{CGPA : 17.28/20}}
+		\end{cvitems}
+	}
+	%---------------------------------------------------------
+	\cventry
+	{Diploma in Mathematics and Physics} % Degree
+	{Allameh Helli High School} % Institution
+	{Tehran, Iran} % Location
+	{ 2012 - 2016} % Date(s)
+	{    
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item {\textbf{Grade : 18.5/20}}\\
+		\end{cvitems}
+	}
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Experience}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+	
+	%---------------------------------------------------------
+	\cventry
+	{Teaching Assistant} % Job title
+	{Math \& Computer Science Faculty, Amirkabir University of Technology} % Organization
+	{Tehran, Iran} % Location
+	{Sep 2018 - Present} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item {Design and Analysis of Algorithms}
+			\item {Data Structures and Algorithms}
+			\item {Fundamentals of Programming: C Language}
+			\item {Compilers}
+			\item {Introduction to the Theory of Computation}
+		\end{cvitems}
+	}
+	
+	%---------------------------------------------------------
+	\cventry
+	{Head Of Informatics and Competitions} % Job title
+	{Student Scientific Chapter, Amirkabir University of Technology} % Organization
+	{Tehran, Iran} % Location	
+	{Mar. 2018 - Mar. 2019} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item {Organized Data Science Seminars And Workshops.}
+			\item {Coordinated 5 ACM Contests.}
+			\item {Arranged On-Site Visits To Leading Tech Companies In Tehran.}
+			\item {Arranged Talks With Alumni Currently Studying Or Working Abroad.}
+			\item {Held 2018 New Student Orientation Program.}
+			\item {Organized And Instructed Exam Preparation Classes(Calculus, Programming, Differential Equations).}
+		\end{cvitems}
+	}
+	
+	%---------------------------------------------------------
+	%---------------------------------------------------------
+	\cventry
+	{Organizing Committee Member} % Job title
+	{11th Winter School on Computational Geometry, Amirkabir University of Technology} % Organization
+	{Tehran, Iran} % Location	
+	{March 2019} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item 	{The Winter School on Computational Geometry is held every year by Math and Computer Science Faculty, in collaboration with IPM Institute for Research in Fundamental Sciences.}
+			\item {Notable researchers in computational geometry are invited for seminars and workshops in this program.}
+		\end{cvitems}
+	}
+	
+	%---------------------------------------------------------
+\end{cventries}
+
+
+
+%-------------------------------------------------------------------------------
+\end{document}
